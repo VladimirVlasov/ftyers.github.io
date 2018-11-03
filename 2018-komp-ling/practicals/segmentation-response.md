@@ -24,6 +24,10 @@ Also nltk has problems with initials like in:
 - On that list, Wright was listed along with many of the USA's other greatest architects including Eero Saarinen, I.M. Pei, Louis Kahn, Philip Johnson, and Ludwig Mies van der Rohe; he was the only architect who had more than one building on the list.
 
 Spacy has broblems with clauses like in:
+- I have hardly anything in common with myself and should stand very quietly in a corner, content that I can breathe".
+- Discourse 5 of that work, "Knowledge Its Own End", is a recent statement of a Christian educational perennialism.
+
+Both nltk and spacy has problems with ':\n' sequence, but in different sentences.
 
 ## Maxmatch tokenization
 
@@ -31,7 +35,3 @@ Maxmatch tokenization was made by indexed vocaburary in jupyter notebook file. B
 
 How we can see that bleu score of maxmatch algorithm is better on train set than on test test (0.65 vs 0.48).
 This can be connected with lack of dictionary in second case.
-- I have hardly anything in common with myself and should stand very quietly in a corner, content that I can breathe".
-- Discourse 5 of that work, "Knowledge Its Own End", is a recent statement of a Christian educational perennialism.
-
-Both nltk and spacy has problems with ':\n' sequence, but in different sentences.
