@@ -25,6 +25,12 @@ Also nltk has problems with initials like in:
 
 Spacy has broblems with clauses like in:
 
+## Maxmatch tokenization
+
+Maxmatch tokenization was made by indexed vocaburary in jupyter notebook file. BLEU metric was applyed to tokenized sentences from train and test sets.
+
+How we can see that bleu score of maxmatch algorithm is better on train set than on test test (0.65 vs 0.48).
+This can be connected with lack of dictionary in second case.
 - I have hardly anything in common with myself and should stand very quietly in a corner, content that I can breathe".
 - Discourse 5 of that work, "Knowledge Its Own End", is a recent statement of a Christian educational perennialism.
 
