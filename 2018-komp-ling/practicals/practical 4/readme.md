@@ -1,6 +1,6 @@
 There are two folders.
 
-"udpipe" contains syntagrus udpipe model (it lies in archive in folder), script for transforming file (gets file name and returns conllu format sentenses from it to stdout).
+"udpipe" contains syntagrus udpipe model (from here https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2898), script for transforming file (gets file name and returns conllu format sentenses from it to stdout).
 
 "max_spanning_tree" contains script and its tests. It gets from stdin number of lines and graph matrix with numbers devided by space. Like that:
 
